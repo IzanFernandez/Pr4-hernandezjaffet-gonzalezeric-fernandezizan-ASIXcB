@@ -6,6 +6,6 @@ if 2 <= alcada_triangle <= 9:
         if i == alcada_triangle:
             print((str(i) + ' ') * ((i)))
         else:
-            print(str(i) + ' ' * ((2*i -2)) + str(i))
+            print(str(i) + ' ' * ((2*i -3)) + str(i))
 else:
     print("L'alçada ha de ser entre 2 i 9, ambdós inclosos.")
